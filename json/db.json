@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "LẮC TAY TYFFANNY XU HƯỚNG MỚI NHẤT",
+      "image": "../Frgia-Proj1-Madala/img/home/01_Home_32.jpg",
+      "price": 955000,
+      "total": 1
+    },
+    {
+      "id": 2,
+      "name": "Mỹ phẩm châu Âu",
+      "image": "../Frgia-Proj1-Madala/img/home/01_Home_32.jpg",
+      "price": 755000,
+      "total": 1
+    },
+    {
+      "id": 3,
+      "name": "MỸ PHẨM CHÂU ÂU THƯƠNG HIỆU HÀNG ĐẦU THẾ GIỚ",
+      "image": "../Frgia-Proj1-Madala/img/home/01_Home_32.jpg",
+      "price": 335000,
+      "total": 1
+    }
+  ],
+  "add_cards": [
+    {
+      "name": "LẮC TAY TYFFANNY XU HƯỚNG MỚI NHẤT",
+      "price": "955000",
+      "image": "../Frgia-Proj1-Madala/img/home/01_Home_32.jpg",
+      "total": "1",
+      "id": 1
+    },
+    {
+      "name": "Mỹ phẩm châu Âu",
+      "price": "755000",
+      "image": "../Frgia-Proj1-Madala/img/home/01_Home_32.jpg",
+      "total": "1",
+      "id": 2
+    },
+    {
+      "name": "MỸ PHẨM CHÂU ÂU THƯƠNG HIỆU HÀNG ĐẦU THẾ GIỚ",
+      "price": "335000",
+      "image": "../Frgia-Proj1-Madala/img/home/01_Home_32.jpg",
+      "total": "1",
+      "id": 3
+    },
+    {
+      "name": "LẮC TAY TYFFANNY XU HƯỚNG MỚI NHẤT",
+      "price": "955000",
+      "image": "../Frgia-Proj1-Madala/img/home/01_Home_32.jpg",
+      "total": "1",
+      "id": 4
+    }
+  ]
+}

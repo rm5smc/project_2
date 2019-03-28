@@ -1,0 +1,25 @@
+//font
+@mixin font($size:null,$weight:null,$color:null,$style:null){
+  font: {
+    size: $size;
+    weight:$weight;
+    style:$style;
+  }
+  color:$color;
+  @content;
+}
+
+@mixin background_position{
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin underline{
+  border-bottom:solid $width-border $grey;
+}
+@mixin border{
+  border:solid $width-border $grey;
+}
+@mixin border-dotted{
+  border-bottom: dotted 2px $grey;
+}

@@ -1,0 +1,31 @@
+include header
+
+.container-link
+  .link-intro
+    a Home 
+    i.fas.fa-angle-right
+    a.cl-green Đăng nhập 
+.container-login
+  .login
+    .login__head
+      h1.form__title Đăng Nhập
+      input.form__head__button(type='button', value='Đăng ký', onclick="location.href='register.html'")
+    form.form
+      .form__all
+        h3.form__title Khách hàng đăng ký
+        p Nếu bạn có 1 tài khoản,vui lòng đăng nhập
+        .form-tit
+          label
+            | Địa chỉ email
+            span.icos-txt *
+          input
+        .form-tit
+          label
+            | Password
+            span.icos-txt *
+          input
+        .form-tit.form-tit__btn
+          a Quên mật khẩu ?
+          button Đăng nhập
+
+include footer

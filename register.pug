@@ -1,0 +1,51 @@
+include header
+
+.container-link
+  .link-intro
+    a Home 
+    i.fas.fa-angle-right
+    a.cl-green Đăng ký 
+
+.container-register
+  .register__all
+    h1.register__title ĐĂNG KÝ
+    .form__all
+      form.form
+        h3.form__title THÔNG TIN CÁ NHÂN
+        .form-tit
+          label
+            | Tên trước
+            span.upper-text *
+          input
+        .form-tit
+          label
+            | Email
+            span.upper-text *
+          input
+        .form-tit
+          label
+            | Password
+            span.upper-text *
+          input
+        p.p-tit Đăng ký nhận bảng tin
+      form.form
+        h3.form__title THÔNG TIN ĐĂNG NHẬP
+        .form-tit
+          label
+            | Mật khẩu
+            span.upper-text *
+          input
+        .form-tit
+          label
+            | Xác nhận mật khẩu
+            span.upper-text *
+          input
+        .form-tit.form-tit__btn
+          button Gửi
+          button.btn__select
+            i.fa.fa-undo
+            | Quay
+            |                 lại
+
+
+include footer

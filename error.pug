@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Document
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.7.2/css/all.css', integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Great+Vibes|Pinyon|Charm|+Script')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(href='../Frgia-Proj1-Madala/css/style.css', rel='stylesheet', type='text/css')
+  body
+    .bg-modal(style='display: none;')
+      .modal__content
+        h1.h-modal__content--tit gửi mail
+        p.p-modal__content--tit
+          | Hãy gửi mail của bạn liên hệ với chúng tôi để được tư vấn tốt nhất 
+          br
+          | Sự hài lòng của bạn là thàng công của chúng tôi
+        input(placeholder='Email của bạn')
+        button Gửi
+        .close(style='font-size:50px;') +
+    .error
+      img.error__img(src='../Frgia-Proj1-Madala/img/home/404.jpg')
+      p.error__tit Đây không phải là trang web bạn đang tìm kiếm
+      .error__search
+        input(type='search--select')
+        i.fa.fa-search
+      .error__footer
+        input#btn__modal.form__foot__button(type='button', value='Liên hệ')
+        input.form__foot__button(type='button', value='Trang chủ', onclick="location.href='index.html'")
+    script.
+      document.getElementById('btn__modal').addEventListener('click',
+      function(){
+      document.querySelector('.bg-modal').style.display = 'flex';
+      });
+      document.querySelector('.close').addEventListener('click',
+      function(){
+      document.querySelector('.bg-modal').style.display = 'none';
+      });

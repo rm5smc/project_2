@@ -1,0 +1,90 @@
+include header
+
+.container-link
+  .link-intro
+    a Home 
+    i.fas.fa-angle-right
+    a.cl-green BLog 
+.container__blog-detail
+  h2 BLOG
+  .blog-detail__all
+    .blog-detail__left
+      .blog-detail__left__item
+        h3.blog-detail__left__header Bài viết mới nhất
+        .blog-detail__left__body
+          .blg-news
+            img.blg-new__img(src='../Frgia-Proj1-Madala/img/home/2a.jpg')
+            p.blg-new__time
+              | 11
+              span  / Tháng 5
+            p.blg-new__author Đăng bởi Giang Lê
+          .blg-new1
+            img.blg-new__img(src='../Frgia-Proj1-Madala/img/home/2b.jpg')
+            p.blg-new__time
+              | 11
+              span  / Tháng 5
+            p.blg-new__author Đăng bởi Giang Lê
+          .blg-new2
+            img.blg-new__img(src='../Frgia-Proj1-Madala/img/home/2c.jpg')
+            p.blg-new__time
+              | 11
+              span  / Tháng 5
+            p.blg-new__author Đăng bởi Giang Lê
+      .blog-detail__left__item2
+        h3.blog-detail__left__item2__header BLOG TAGS
+        .blog-detail__left__item2__body
+          button.blog-detail__left--btn Đồng hồ
+          button.blog-detail__left--btnSl Túi
+          button
+            | Phụ kiện
+          button
+            | Đồng hồ
+          button Túi
+          button Giày
+          button Sandal
+          button
+            | Áo Sơ mi
+          button Nước hoa
+      .blog-detail__left__item3
+        h3
+          | TEST VIDEO
+        .blog-detail__left--video
+          img.blog-detail__left__banner(src='../Frgia-Proj1-Madala/img/home/3.jpg')
+          i.far.fa-play-circle
+    .blog-content
+      img.blog-content__img(src='../Frgia-Proj1-Madala/img/home/1.jpg')
+      .blog-content__text
+        h3.blog-content__text__title nàng béo không ngại diện váy nổi bật
+        .blog-content__text__body
+          p
+            | Hi, chào các nàng ... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tình xô nhau đi tắm Free để giải nhiệt.Trong tiết xuân hè, nàng ngoại cỡ thắp sáng phong cách bằng quần họa tiết nhiệt đới đi kèm áo sơ mi nhã nhặn.Trang phục họa tiết điện tử được nàng phối cùng chân váy kẻ caro, làm nên style vừa hiện đại, vừa phảng phất nét cổ điển.Lối diện đồ hàng ngày đơn giản, khỏe khoắn của cô khi kết hợp chất liệu jean.Nữ blogger rực rỡ khi hòa trộn các gam đỏ, hồng, tím... một cách vui tươi, kèm theo các phụ kiện điệu đà.
+          p.p__selected Bởi Nam Trần (27/5/2015)
+        .blog-content__text__footer
+          a(src='') Đọc thêm
+          a.a__selected(src='') 23 Bình luận
+      .blg-cont__tag
+        span.sp__selected Tag:
+        |  Men
+      .blg-cont__form
+        form.form
+          h3.form__title Đóng góp ý kiến
+          .form-elem
+            label
+              | Tên
+              span *
+            input.ip__selected1
+          .form-elem
+            label
+              | Email
+              span *
+            input.ip__selected2
+          .form-elem
+            label.lb__selected
+              | Ý kiến
+              span *
+            textarea.ip__selected3
+          .form-elem__button
+            button GỬI Ý KIẾN
+
+
+include footer

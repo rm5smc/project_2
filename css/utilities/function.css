@@ -1,0 +1,12 @@
+/*
+retrieve color from $colors map ie. `color(primary, base)`
+ --  example in use: color: color(primary, green);
+https://codepen.io/jakealbaugh/post/using-sass-functions-to-access-complex-variable-maps
+ */
+/*
+get color of font icon
+ -- paramter: name of icon
+ -- return:color icon
+*/
+
+/*# sourceMappingURL=function.css.map */

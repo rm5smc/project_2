@@ -1,0 +1,54 @@
+include header
+
+.container-link
+  .link-intro
+    a Home 
+    i.fas.fa-angle-right
+    a.cl-green Giỏ hàng 
+.container-sp
+  h2 GIỎ HÀNG
+  input.form__foot__button(type='button', value='Thông tin', onclick="location.href='account.html'")
+  .sp-cart
+    table.table
+      thead
+        tr
+          th Ảnh
+          th Tên sản phẩm
+          th Giá
+          th Số lượng
+          th Tổng số
+          th Xóa
+      tbody
+        tr
+          td
+            img(src='../Frgia-Proj1-Madala/img/home/Layer 75.jpg')
+          td  Lắc tay D&G
+          td
+            | 345.000
+            sup đ
+          td 1
+          td
+            | 345.000
+            sup đ
+          td
+            i.fa.fa-trash
+        tr
+          td
+            img(src='../Frgia-Proj1-Madala/img/home/Layer 75.jpg')
+          td  Lắc tay D&G
+          td
+            | 345.000
+            sup đ
+          td 1
+          td
+            | 345.000
+            sup đ
+          td
+            i.fa.fa-trash
+    .sp-cart__btn
+      button Tiếp tục mua hàng
+      button Xóa
+      button.btn__select Cập nhật
+
+
+include footer

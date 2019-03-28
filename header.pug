@@ -1,0 +1,103 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Document
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.7.2/css/all.css', integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Great+Vibes|Pinyon|Charm|+Script')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(href='../Frgia-Proj1-Madala/css/style.css', rel='stylesheet', type='text/css')
+  body
+    .content_header
+      .container.header
+        p.header-logo
+          span M
+          | andala
+        ul.header__prim
+          li
+            a(href='index.html') TRANG CHỦ
+          li
+            a(href='about-us.html') GIỚI THIỆU
+          li.header__prim__prod
+            a(href='product.html') SẢN PHẨM
+            .menu-prod
+              .menu-prod__item
+                h6.menu-prod__item__title DƯỠNG DA
+                .menu-prod__item__list
+                  p Áo khoác
+                  p Bộ áo liền quần
+                  p Dress
+                  p Quần/Váy
+                  p Quần sort
+                  p Quần jean
+                  p Đồ đan
+                  p Áo nỉ
+                  p.menu-prod__item__list--active Áo sơ mi
+              .menu-prod__item
+                h6.menu-prod__item__title NƯỚC HOA
+                .menu-prod__item__list
+                  p Áo khoác
+                  p Bộ áo liền quần
+                  p Dress
+                  p Quần/Váy
+                  p Quần sort
+                  p Quần jean
+                  p Đồ đan
+                  p Áo nỉ
+                  p.menu-prod__item__list--active Áo sơ mi
+              .menu-prod__item
+                h6.menu-prod__item__title
+                  a(href='detail.html') TRANG SỨC
+                .menu-prod__item__list
+                  p Áo khoác
+                  p Bộ áo liền quần
+                  p Dress
+                  p Quần/Váy
+                  p Quần sort
+                  p Quần jean
+                  p Đồ đan
+                  p Áo nỉ
+                  p.menu-prod__item__list--active Áo sơ mi
+          li
+            a(href='news.html') TIN TỨC
+          li
+            a(href='map.html') BẢN ĐỒ
+          li
+            a(href='login.html') ĐĂNG NHẬP
+        .header__right
+          button
+            a
+              i.fa.fa-shopping-cart
+            .cart
+              .list__item
+                .cart__item
+                  img.cart__item__img(src='../Frgia-Proj1-Madala/img/home/cart-item.jpg')
+                  .cart__item__descript
+                    p.cart__item__descript__name Áo sơ mi nam
+                    p.cart__item__descript__price
+                      | 120.000
+                      sup đ
+                  a x
+                .cart__item
+                  img.cart__item__img(src='../Frgia-Proj1-Madala/img/home/cart-item.jpg')
+                  .cart__item__descript
+                    p.cart__item__descript__name Áo sơ mi nam
+                    p.cart__item__descript__price
+                      | 120.000
+                      sup đ
+                  a x
+              p.cart__sum-price
+                | Tổng số
+                span
+                  | 240.000
+                  sup đ
+              input.cart__button(type='button', value='GIỎ HÀNG', onclick="location.href='store.html'")
+          button
+            a(href='error.html')
+              i.fa.fa-search
+          button
+            a
+
+            //- i.fa.fa-bars
